@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  12 AUG 2024 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  15 AUG 2024 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**asiignment1
+**assignment1.tex
 (./assignment1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1192,12 +1192,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file assignment1.aux.
+(./assignment1.aux)
 \openout1 = `assignment1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 50.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1309,6 +1310,8 @@ LaTeX Info: Redefining \ohm on input line 50.
 Package gensymb Info: Using \textohm for \ohm on input line 50.
 Package gensymb Info: Using \textmu for \micro on input line 50.
 Package hyperref Info: Link coloring OFF on input line 50.
+
+(./assignment1.out) (./assignment1.out)
 \@outlinefile=\write5
 \openout5 = `assignment1.out'.
 
@@ -1342,7 +1345,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 2707) in paragraph at lines 114--127
+Underfull \hbox (badness 2707) in paragraph at lines 113--125
 \OT1/txr/m/n/12 non-negative real num-bers. De-ter-mine the
  []
 
@@ -1367,17 +1370,17 @@ Package rerunfilecheck Warning: File `assignment1.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `assignment1.out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
 (rerunfilecheck)             After:  BF8ABEA271D7891D2A7E9077D4177DE2;141.
  ) 
 Here is how much of TeX's memory you used:
- 30326 strings out of 474116
- 596226 string characters out of 5743683
+ 30333 strings out of 474116
+ 596367 string characters out of 5743683
  1967187 words of memory out of 5000000
- 52014 multiletter control sequences out of 15000+600000
+ 52016 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,16n,103p,1175b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,103p,1179b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1386,7 +1389,7 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on assignment1.pdf (2 pages, 52066 bytes).
+Output written on assignment1.pdf (2 pages, 51774 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

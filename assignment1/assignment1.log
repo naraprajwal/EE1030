@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  17 AUG 2024 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  18 AUG 2024 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,18 +1345,16 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 2707) in paragraph at lines 113--125
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 112--124
 \OT1/txr/m/n/12 non-negative real num-bers. De-ter-mine the
  []
 
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
-local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-] [2
 
 ] (./assignment1.aux)
  ***********
@@ -1367,13 +1365,13 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: BF8ABEA271D7891D2A7E9077D4177DE2;141.
  ) 
 Here is how much of TeX's memory you used:
- 30335 strings out of 474116
- 596380 string characters out of 5743683
- 1968187 words of memory out of 5000000
+ 30334 strings out of 474116
+ 596374 string characters out of 5743683
+ 1970187 words of memory out of 5000000
  52018 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,16n,103p,1179b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,103p,1179b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1382,10 +1380,10 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on assignment1.pdf (2 pages, 52073 bytes).
+Output written on assignment1.pdf (1 page, 51540 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

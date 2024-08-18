@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  18 AUG 2024 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  18 AUG 2024 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,7 +1380,7 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on assignment1.pdf (1 page, 51577 bytes).
+Output written on assignment1.pdf (1 page, 51571 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

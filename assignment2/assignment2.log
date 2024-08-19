@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  19 AUG 2024 14:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  19 AUG 2024 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -1183,11 +1184,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count347
-
-
-Package multicol Warning: May not work with the twocolumn option on input line 
-143.
-
 \mult@box=\box85
 \multicol@leftmargin=\dimen333
 \c@unbalance=\count348
@@ -1263,7 +1259,8 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \c@rem=\count362
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 1.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (./assignment2.aux)
@@ -1389,6 +1386,8 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \@outlinefile=\write5
 \openout5 = `assignment2.out'.
 
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
 5.
 
@@ -1423,46 +1422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
-
-Underfull \hbox (badness 5217) in paragraph at lines 94--95
-[]$\OML/txmi/m/it/12 QS \OT1/txr/m/n/12 :
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 94--95
-\OML/txmi/m/it/12 PR \OT1/txr/m/n/12 :
- []
-
-
-Underfull \hbox (badness 5217) in paragraph at lines 95--96
-[]$\OML/txmi/m/it/12 QS \OT1/txr/m/n/12 :
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 95--96
-\OML/txmi/m/it/12 PQ \OT1/txr/m/n/12 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\OT1/txr/m/n/12 None
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-\OT1/txr/m/n/12 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-\OT1/txr/m/n/12 these
- []
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-] (./assignment2.aux)
+[2] [3] (./assignment2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1471,13 +1431,13 @@ Package rerunfilecheck Info: File `assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: 741E1C1A4F469347789AEBEC7D59D762;332.
  ) 
 Here is how much of TeX's memory you used:
- 30486 strings out of 474116
- 598749 string characters out of 5743683
- 1961187 words of memory out of 5000000
+ 30488 strings out of 474116
+ 598761 string characters out of 5743683
+ 1949187 words of memory out of 5000000
  52151 multiletter control sequences out of 15000+600000
  616656 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,103p,1179b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1179b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1486,10 +1446,10 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2024
 dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on assignment2.pdf (1 page, 49028 bytes).
+Output written on assignment2.pdf (3 pages, 49303 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 35 named destinations out of 1000 (max. 500000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 37 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

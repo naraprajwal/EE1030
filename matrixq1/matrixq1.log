@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  18 AUG 2024 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  20 AUG 2024 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1735,12 +1735,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file matrixq1.aux.
+(./matrixq1.aux)
 \openout1 = `matrixq1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 43.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1916,6 +1917,8 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 43.
+
+(./matrixq1.out) (./matrixq1.out)
 \@outlinefile=\write5
 \openout5 = `matrixq1.out'.
 
@@ -1963,21 +1966,14 @@ File: ts1txr.fd 2000/12/15 v3.1
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `matrixq1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `matrixq1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1DA27FB226CBD29F9D5ED68FD75C3445;68.
+Package rerunfilecheck Info: File `matrixq1.out' has not changed.
+(rerunfilecheck)             Checksum: 1DA27FB226CBD29F9D5ED68FD75C3445;68.
  ) 
 Here is how much of TeX's memory you used:
- 53127 strings out of 474116
- 1263229 string characters out of 5743683
+ 53137 strings out of 474116
+ 1263370 string characters out of 5743683
  1948187 words of memory out of 5000000
- 74678 multiletter control sequences out of 15000+600000
+ 74682 multiletter control sequences out of 15000+600000
  622961 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,14n,109p,1198b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1988,10 +1984,10 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on matrixq1.pdf (2 pages, 44991 bytes).
+Output written on matrixq1.pdf (2 pages, 45082 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

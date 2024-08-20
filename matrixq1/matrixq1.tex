@@ -58,24 +58,24 @@ Section Formulae,\hfill (eq 1)
  where $k$ is the ratio in which $C$ divides $A$ and $B$,
  If $C$ is on the $Y$ axis then,
  \begin{align*}
-     C = \begin{pmatrix} 0 \\ y \\ \end{pmatrix}
+     C = \myvec{0 \\ y}
  \end{align*}
  Given,
  \begin{align*}
- A = \begin{pmatrix} 5 \\ -6 \\ \end{pmatrix},
- B = \begin{pmatrix} -1 \\ -4 \\ \end{pmatrix}
+ A = \myvec{5 \\ -6},
+ B = \myvec{-1 \\ -4}
  \end{align*}
  Putting the value of $A,B$ and $C$ in equation 1,
  \begin{align*}
  C=\frac{A+kB}{1+k}\\
- \begin{pmatrix} 0 \\ y \\ \end{pmatrix} =
- \frac{\begin{pmatrix} 5 \\ -6 \\ \end{pmatrix} + k\begin{pmatrix} -1 \\ -4 \\ \end{pmatrix}}{1+k}\\
- \implies \begin{pmatrix} 0 \\ y \\ \end{pmatrix} =
- \frac{\begin{pmatrix} 5-k \\ -6-4k \\ \end{pmatrix}}{1+k}\\
- \implies \begin{pmatrix} 0 \\ y \\ \end{pmatrix}(1+k) = 
- \begin{pmatrix} 5-k \\ -6-4k \\ \end{pmatrix}\\
- \implies \begin{pmatrix} 0 \\ y(1+k) \\ \end{pmatrix} =
- \begin{pmatrix} 5-k \\ -6-4k \\ \end{pmatrix}
+ \myvec{0 \\ y} =
+ \frac{\myvec{5 \\ -6} + k\myvec{-1 \\ -4}}{1+k}\\
+ \implies \myvec{0 \\ y} =
+ \frac{\myvec{5-k \\ -6-4k}}{1+k}\\
+ \implies \myvec{0 \\ y}(1+k) = 
+ \myvec{5-k \\ -6-4k}\\
+ \implies \myvec{0 \\ y(1+k)} =
+ \myvec{5-k \\ -6-4k}
  \end{align*}
  Comparing matrix in both side,
  \begin{align*}

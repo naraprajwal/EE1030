@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  31 AUG 2024 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  2 SEP 2024 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -1183,11 +1184,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count347
-
-
-Package multicol Warning: May not work with the twocolumn option on input line 
-143.
-
 \mult@box=\box85
 \multicol@leftmargin=\dimen333
 \c@unbalance=\count348
@@ -1263,15 +1259,17 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \c@rem=\count362
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 0.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file assignment3.aux.
+(./assignment3.aux)
 \openout1 = `assignment3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 50.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1383,9 +1381,13 @@ LaTeX Info: Redefining \ohm on input line 50.
 Package gensymb Info: Using \textohm for \ohm on input line 50.
 Package gensymb Info: Using \textmu for \micro on input line 50.
 Package hyperref Info: Link coloring OFF on input line 50.
+
+(./assignment3.out) (./assignment3.out)
 \@outlinefile=\write5
 \openout5 = `assignment3.out'.
 
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
 0.
 
@@ -1416,40 +1418,26 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-[]\OT1/txr/m/n/12 both $\OML/txmi/m/it/12 x$
- []
 
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+Package multicol Warning: Using `1' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 142.
 
-
-] [2
-
-]
-(./assignment3.aux)
+[2] [3] (./assignment3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `assignment3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `assignment3.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  448314F582D5D82F965E64714B00EAAA;190.
+Package rerunfilecheck Info: File `assignment3.out' has not changed.
+(rerunfilecheck)             Checksum: 448314F582D5D82F965E64714B00EAAA;190.
  ) 
 Here is how much of TeX's memory you used:
- 30518 strings out of 474116
- 598862 string characters out of 5743683
- 1978187 words of memory out of 5000000
- 52145 multiletter control sequences out of 15000+600000
+ 30529 strings out of 474116
+ 599033 string characters out of 5743683
+ 1953187 words of memory out of 5000000
+ 52149 multiletter control sequences out of 15000+600000
  616690 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,103p,1179b,691s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,103p,1179b,688s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1457,10 +1445,10 @@ ve/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on assignment3.pdf (2 pages, 54393 bytes).
+Output written on assignment3.pdf (3 pages, 54423 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

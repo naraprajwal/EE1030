@@ -5,11 +5,19 @@
 
 
 import sys                                          #for path to external scripts
-sys.path.insert(0, '/home/ysiddhanth/Documents/matgeo/codes/CoordGeo')        #path to my scripts
+sys.path.insert(0, '/Users/prajwalnara/desktop/matgeo/codes/CoordGeo')        #path to my scripts
 
 
 import numpy as np
+import mpmath as mp
+import numpy.linalg as LA
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+#local imports
+from line.funcs import *
+from triangle.funcs import *
+from conics.funcs import circ_gen
 
 # Load the values from values.dat, skipping the header row
 data = np.loadtxt("values.dat", skiprows=1)

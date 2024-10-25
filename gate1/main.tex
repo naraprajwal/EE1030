@@ -1,0 +1,293 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}
+\usepackage{array}                                        
+\usepackage{longtable}                                    
+\usepackage{calc}                                         
+\usepackage{multirow}                                     
+\usepackage{hhline}                                       
+\usepackage{ifthen}                                       
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{enumitem,multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2008 MA 52-68}
+\author{EE24BTECH11051 - Prajwal}
+\maketitle
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+\item For two random variables $X$ and $Y$ , the regression lines are given by $Y=5X-15$ and $Y=10X-35$. Then regression coefficient of $X$ and $Y$ is
+ \begin{enumerate}
+ \begin{multicols}{4}
+     \item $0.1$
+     \item $0.2$
+     \item $5$
+     \item $10$
+ \end{multicols}
+\end{enumerate}
+
+
+\item In an examination there are $80$ questions each having four choices. Exactly one of these is choices is correct abd the other three are wrong. A student is awarded $1$ mark for each correct answer, and $-0.25$ for each wrong answer. If a student ticks the answer of each question randomly, then the expected value of his/her total marks in the examination is 
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $-15$
+     \item $0$
+     \item $5$
+     \item $20$
+ \end{multicols}
+\end{enumerate}
+
+\item Let $X_1,X_2,\dots,X_n$ be an random sample from uniform distribution on $\sbrak{0,\theta}$. Then the maximum likelihood estimator (MLE) of $\theta$ based on the above random sample is
+\begin{enumerate}
+ \begin{multicols}{2}
+     \item $\frac{2}{n}\sum X_i$
+     \item Min$\sbrak{X_1,X_2,\dots,X_n}$
+     \item $\frac{1}{n}\sum X_i$
+     \item Max$\sbrak{X_1,X_2,\dots,X_n}$
+ \end{multicols}
+\end{enumerate}
+
+\item  the cost matrix of a transportation problem is given by \\
+
+\begin{align}
+\begin{tabular}{|c|c|c|c|}
+\hline
+1 & 2 & 3 & 4 \\
+\hline
+4 & 3 & 2 & 0 \\
+\hline
+0 & 2 & 2 & 1 \\
+\hline
+\end{tabular}    
+\end{align}\\
+
+The following are the values of the variables in a feasible solution.\\
+$x_12=6,x_23=2,x_24=6,x_31=4,x_33=6$\\
+then which of the following is correct?
+\begin{enumerate}
+ \begin{multicols}{2}
+     \item The solution is degenerate and basic
+     \item The solution is non-degenerate and basic
+     \item The solution is degenerate and non-basic
+     \item The solution is non-degenerate and non-basic
+ \end{multicols}
+\end{enumerate}
+
+
+\item the maximum value of $z=3x_1+x_2$ subject to $2x_1+x_2\leq 3,x_1\leq3$ and $x_1,x_2\geq0$ is
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $0$
+     \item $4$
+     \item $6$
+     \item $9$
+ \end{multicols}
+\end{enumerate}
+
+\item Consider the following maximizing problem $z=2x_1+3x_2-4x_3+x_4$ subject to 
+\begin{align}
+    x_1+x_2+ x_3=0 \\
+  x_1+x_2-x_3=0 = 10 \\
+   2x_1+3x_2-4x_3+x_4=0 \\
+   x_1,x_2,x_3,x_4\geq0
+\end{align}\\
+Then
+\begin{enumerate}
+ \begin{multicols}{1}
+     \item $\brak{1,0,1,4}$ is a basic feasible solution but $\brak{2,0,0,4}$ is not
+     \item $\brak{1,0,1,4}$ is not a basic feasible solution but $\brak{2,0,0,4}$ is 
+     \item neither $\brak{1,0,1,4}$ nor $\brak{2,0,0,4}$ is a basic feasible solution
+     \item both of $\brak{1,0,1,4}$ and $\brak{2,0,0,4}$ are  basic feasible solutions
+ \end{multicols}
+\end{enumerate}
+
+\item In the closed system of a simple harmonic motion of a  pendulum, let $H$ denote the Hamiltonian and $E$ be the total energy. Then
+\begin{enumerate}
+\begin{multicols}{2}
+     \item $H$ is a constant and $H=E$
+     \item $H$ is a constant and $H \neq E$
+     \item $H$ is not constant and $H=E$
+     \item $H$ is not constant and $H\neq E$
+ \end{multicols}
+\end{enumerate}
+
+\item The possible values fo $\alpha$ for which the variational problem
+\begin{align}
+    J\sbrak{y(x)} = \int_{0}^{1} \brak{3y^2 + 2x^3 y'}dx, y(\alpha) = 1
+\end{align}\\
+has extremals are
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $-1,0$
+     \item $0,1$
+     \item $-1,1$
+     \item $-1,0,1$
+ \end{multicols}
+\end{enumerate}
+
+\item  The functional $\int_{0}^{1} \brak{y'^2 + x^3}dx$,given $y(1)=1$,achieves its
+\begin{enumerate}
+ \begin{multicols}{1}
+     \item weak maximum on all its external
+     \item weak minimum on all its external
+     \item weak minimum on some,but not on all of its externals
+     \item weak maximum on some,but not on all of its externals
+ \end{multicols}
+\end{enumerate}
+
+\item The integral equation\\
+\begin{align}
+    x(t) = \sin t + \lambda \int_{0}^{t} \brak{s^2 t^3 + e^{s^2 + t^3}} x(s)ds,0 \leq t \leq 1,\lambda \in \mathbb{R},\lambda \neq 0
+\end{align}
+\begin{enumerate}
+ \begin{multicols}{1}
+     \item all non-zero values of $\lambda$
+     \item no value of $\lambda$
+     \item only countably many positive values of $\lambda$
+     \item only countably many negative values of $\lambda$
+ \end{multicols}
+\end{enumerate}
+
+\item The integral equation $x(t) - \int_{0}^{1} \sbrak{\cos t \sec s \ x(s)}ds = \sin h t,0 \leq t \leq 1$,has
+\begin{enumerate}
+ \begin{multicols}{1}
+     \item no solution
+     \item a unique solution
+     \item more than one but finitely many solution
+     \item infinitely many solutions
+ \end{multicols}
+\end{enumerate}
+
+\item If  $y_{i+1} = y_i + h \phi(f, x_i, y_i, h), i = 1, 2, \ldots$,  where \\
+$\phi(f, x, y, h) = a f(x, y) + b f(x + h, y + h f(x, y))$,  is a second order accurate scheme to solve the
+initial value problem  $\frac{dy}{dx} = f(x, y), y(x_0) = y_0$,  then  $a$  and  $b$, respectively, are
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $\frac{h}{2},\frac{h}{2}$
+     \item $1,-1$
+     \item $\frac{1}{2},\frac{1}{2}$
+     \item $h,-h$
+ \end{multicols}
+\end{enumerate}
+
+\item If a quadrature formula $\frac{3}{2}f\brak{-\frac{1}{3}}+Kf\brak{\frac{1}{3}}+\frac{1}{2}f\brak{1}$,that approximates $\int_{-1}^{1}\brak{f\brak{x}}dx$,is found to be exact for quadratic polynomials,then the value of $K$ is
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $2$
+     \item $1$
+     \item $0$
+     \item $-1$
+ \end{multicols}
+\end{enumerate}
+
+\item If $\begin{pmatrix}
+1 & 4 & 3 \\
+2 & 7 & 9 \\
+5 & 8 & a
+\end{pmatrix} = 
+\begin{pmatrix}
+l_{11} & 0 & 0 \\
+l_{21} & l_{22} & 0 \\
+l_{31} & l_{32} & -53
+\end{pmatrix}
+\begin{pmatrix}
+1 & u_{12} & u_{13} \\
+0 & 1 & u_{23} \\
+0 & 0 & 1
+\end{pmatrix}$, then the value of $a$ is 
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $-2$
+     \item $-1$
+     \item $1$
+     \item $2$
+ \end{multicols}
+\end{enumerate}
+
+\item Using the least  squares method, if a curve $y=ax^2+bx+c$ is fitted to the collinear data points $\brak{-1,- 3},\brak{1,1},\brak{3, 5}$ and $\brak{7, 13}$,then the triplet $\brak{a,b,c}$ is equal to
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $\brak{-1,2,0}$
+     \item $\brak{0,2,-1}$
+     \item $\brak{2,-1,0}$
+     \item $\brak{0,-1,2}$
+ \end{multicols}
+\end{enumerate}
+
+\item A quadratic polynomial $p(x)$ is constructed by interploting the data points $\brak{0,1},\brak{1,e}$ and $\bark{2, e^2}$.If $\sqrt{e}$ is approximated by  using $p(x)$, then its approximately value is 
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $\frac{1}{8}\brak{3+6e-e^2}$
+     \item $\frac{1}{8}\brak{3-6e+e^2}$
+     \item $\frac{1}{8}\brak{3-6e-e^2}$
+     \item $\frac{1}{8}\brak{3+6e-e^2}$
+ \end{multicols}
+\end{enumerate}
+
+\item The characteristics curve of $2yu_x+\brak{2x+y^2}u_x=0$ passing through $\brak{0,0}$ is 
+\begin{enumerate}
+ \begin{multicols}{4}
+     \item $y^2=2\brak{e^x+x-1}$
+     \item $y^2=2\brak{e^x-x+1}$
+     \item $y^2=2\brak{e^x-x-1}$
+     \item $y^2=2\brak{e^x+x+1}$
+ \end{multicols}
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
+
+
+
+
+
+
+
+            

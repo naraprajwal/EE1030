@@ -1,0 +1,109 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}
+\usepackage{array}                                        
+\usepackage{longtable}                                    
+\usepackage{calc}                                         
+\usepackage{multirow}                                     
+\usepackage{hhline}                                       
+\usepackage{ifthen}                                       
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{enumitem,multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2016 EE 40-52}
+\author{EE24BTECH11051 - Prajwal}
+\maketitle
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{enumerate}
+\item A three-phase cable is supplying 800 kW and 600 kVAr to an inductive load. It is intended to supply an additional resistive load of 100 kW through the same cable without increasing the heat dissipation in the cable, by providing a three-phase bank of capacitors connected in star across the load. Given the line voltage is 3.3 kV, 50 Hz, the capacitance per phase of the bank, expressed in microfarads, is $\dots$.
+\item A 30 MVA, 3-phase, 50 Hz, 13.8 kV, star-connected synchronous generator has positive, negative and zero sequence reactances, 15\%, 15\% and 5\% respectively. A reactance (X$_$n) is connected between the neutral of the generator and ground. A double line to ground fault takes place involving phases ‘b’ and ‘c’, with a fault impedance of j0.1 p.u. The value of X$_$n (in p.u.) that will limit the positive sequence generator current to 4270 A is $\dots$
+\item If the star side of the star-delta transformer shown in the figure is excited by a negative sequence voltage, then
+\centering
+\begin{tikzpicture}
+\tikzstyle{every node}=[font=\LARGE]
+\node (tikzmaker) [shift={(-0.25, -0.25)}] at (5.5,11.25) {\includegraphics[width=-0.5cm]{}};
+\draw (-56,21) to[short] (-52.25,21);
+\draw (-49.5,21) to[short] (-46.75,21);
+\draw (-52.25,21) to[L ] (-54.25,19);
+\draw (-54.25,19) to[L ] (-52.25,17);
+\draw (-54.25,19) to[L ] (-56.5,19);
+\draw (-49.5,21) to[L ] (-51.5,19);
+\draw (-51.5,19) to[L ] (-47.5,19);
+\draw (-49.5,21) to[L ] (-47.5,19);
+\draw (-51.5,19) to[short] (-51.5,17.75);
+\draw (-51.5,17.75) to[short] (-46.5,17.75);
+\draw (-47.75,19) to[short] (-46.5,19);
+\draw (-52.25,17) to[short] (-56.5,17);
+\draw (-56,21) to[short] (-57,21);
+\draw (-56.5,19) to[short] (-57,19);
+\draw (-56.25,17) to[short] (-57,17);
+\node [font=\LARGE] at (-57.75,21) {A};
+\node [font=\LARGE] at (-57.75,17) {B};
+\node [font=\LARGE] at (-57.75,19) {C};
+\node [font=\LARGE] at (-46.25,21) {a};
+\node [font=\LARGE] at (-45.75,19) {b};
+\node [font=\LARGE] at (-46,17.75) {c};
+\end{tikzpicture}
+\begin{enumarate}
+\item V$_$AB leads V$_$ab by 60$^\circ$
+\item 
+\end{enumerate}
+
+
+\end{enumerate}
+
+\end{document}
+
+
+
+
+            
+
